@@ -117,6 +117,7 @@
 -define:ENABLE_INPUT_SYSTEM
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"D:/MyFiles/GitHub/spaceshooter/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"D:/UnityEditor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/UnityEditor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/UnityEditor/2021.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -320,7 +321,6 @@
 -r:"D:/UnityEditor/2021.3.0f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"D:/UnityEditor/2021.3.0f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"D:/UnityEditor/2021.3.0f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"D:/UnityProjects/Space Shooter/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -341,13 +341,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/CameraShake.cs"
 "Assets/Scripts/DamageDealer.cs"
 "Assets/Scripts/EnemySpawner.cs"
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/Pathfinder.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/Shooter.cs"
 "Assets/Scripts/WaveConfigSO.cs"
-"Assets/Shooter.cs"
 -langversion:9.0
 
 /deterministic
