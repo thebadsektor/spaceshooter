@@ -181,8 +181,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 651228d6671ab7d46b53b066b6b355af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayer: 1
   health: 50
+  score: 0
   hitEffect: {fileID: 7322236328186542595, guid: 20552b0c2c15a8349a1c1fc4fe8187bc, type: 3}
+  applyCameraShake: 0
 --- !u!50 &1591452696639216491
 Rigidbody2D:
   serializedVersion: 4
