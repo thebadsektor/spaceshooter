@@ -36,10 +36,7 @@ public class Health : MonoBehaviour
             damageDealer.Hit();
         }
 
-        int GetHealth()
-        {
-            return health;
-        }
+        
 
         void TakeDamage(int damage)
         {           
@@ -77,6 +74,11 @@ public class Health : MonoBehaviour
             {
                 cameraShake.Play();
             }
-        }
+        }   
+    }
+
+    public int GetHealth()
+    {
+        return health;
     }
 }
