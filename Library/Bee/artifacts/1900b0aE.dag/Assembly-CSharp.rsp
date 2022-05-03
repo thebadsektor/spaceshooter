@@ -353,6 +353,7 @@
 "Assets/Scripts/Shooter.cs"
 "Assets/Scripts/SpriteScroller.cs"
 "Assets/Scripts/UIDisplay.cs"
+"Assets/Scripts/UIGameOver.cs"
 "Assets/Scripts/WaveConfigSO.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

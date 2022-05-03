@@ -57,7 +57,7 @@ public class Health : MonoBehaviour
             }
             else
             {
-                levelManager.LoadGameOver(scoreKeeper.GetScore());
+                levelManager.LoadGameOver();
             }
             Destroy(gameObject);
         }
