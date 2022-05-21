@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 # spaceshooter
-=======
-# Spaceshooter
->>>>>>> master
